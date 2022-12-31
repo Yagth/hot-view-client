@@ -3,7 +3,6 @@ import * as Avatar from "@radix-ui/react-avatar";
 import * as Label from "@radix-ui/react-label";
 import Image from "next/image";
 import { BsBookmark, BsThreeDots } from "react-icons/bs";
-
 import {
   NewsDescription,
   NewsHeading,

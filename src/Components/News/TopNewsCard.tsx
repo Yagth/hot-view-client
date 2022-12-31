@@ -3,7 +3,6 @@ import Image from "next/image";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import { RxDotFilled } from "react-icons/rx";
-
 import { NewsHeading, NewsInfo } from "@/components/Ui/Typography";
 
 interface IProps {

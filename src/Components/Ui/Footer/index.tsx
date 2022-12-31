@@ -7,7 +7,6 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import { MdPhone } from "react-icons/md";
-
 import { Contact } from "@/components/Ui/Contact";
 
 interface Iprops {

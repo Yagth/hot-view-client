@@ -1,5 +1,4 @@
 import axios from "axios";
-
 import { IUser } from "src/types/User";
 import { LoginInput } from "src/types/LoginInput";
 import { BASE_URL } from "config/default";

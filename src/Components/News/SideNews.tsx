@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 import { NewsHeading, NewsInfo } from "@/components/Ui/Typography";
 
 interface IProps {
