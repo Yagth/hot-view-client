@@ -4,7 +4,8 @@ import { useInitFbSDK } from "@/components/ArticlePostingForm";
 const PAGE_ID = "132191099688344";
 
 function form() {
-  const isFbSDKIntialised = useInitFbSDK();
+  // const isFbSDKIntialised =
+  useInitFbSDK();
 
   const [fbUserAccessToken, setFbUserAccessToken] = React.useState();
   const [fbPageAccessToken, setFbPageAccessToken] = React.useState();
@@ -90,6 +91,12 @@ function form() {
           ) : (
             <h2 className="placeholder-container">Welcome!</h2>
           )}
+          <div
+            class="fb-like"
+            data-share="true"
+            data-width="450"
+            data-show-faces="true"
+          ></div>
         </main>
       </div>
     </div>
