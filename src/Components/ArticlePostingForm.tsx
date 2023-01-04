@@ -16,12 +16,14 @@ import React from "react";
 // };
 
 export const useInitFbSDK = () => {
-  const [isInitialized, setIsInitialized] = React.useState(false);
+  // const [isInitialized, setIsInitialized] = React.useState(false);
   if (typeof window !== "undefined") {
     // injectFbSDKScript();
     window.fbAsyncInit = function () {
       FB.init({
         appId: "739907943938114",
+        status: true,
+        cookie: true,
         xfbml: true,
         version: "v15.0",
       });
